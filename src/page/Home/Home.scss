@@ -1,0 +1,57 @@
+.content {
+    .header {
+        border-radius: 12px;
+        padding: 20px;
+
+        &__box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__text {
+            font-size: 2rem;
+            color: #9c27b0;
+        }
+
+        &__input {
+            position: relative;
+        }
+
+        &__label {
+            width: 500px;
+        }
+
+        img {
+            opacity: 0.5;
+            width: 17px;
+            position: absolute;
+            right: 12px;
+            top: 8px;
+        }
+    }
+
+    .cart {
+        &__box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &-err {
+                font-size: 2.5rem;
+                color: #772c85;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        &__text {
+            color: #9c27b0;
+        }
+    }
+    .country {
+        
+    }
+}
